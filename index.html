@@ -1,75 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
-        header{
+        header {
             width: 90%;
             margin: auto;
         }
-        h1{
+
+       header> h1 {
             width: 40%;
             float: left;
             color: skyblue;
             line-height: 20px;
         }
-        h1 >span{
+
+        h1>span {
             color: steelblue;
             font-size: 18px;
         }
-        ul{
+
+        ul {
             width: 40%;
             float: right;
         }
-        li{
+
+        li {
             display: inline-block;
             padding: 15px 30px;
             font-weight: bolder;
             font-size: 24px;
             font-family: 'Courier New', Courier, monospace;
         }
-        a{
+
+        a {
             color: skyblue;
             text-decoration: none;
         }
-        a:hover{
+
+        a:hover {
             color: steelblue;
             text-decoration: underline;
         }
-        #slider{
+
+        #slider {
             width: 100%;
         }
 
-        #slider >img{
+        #slider>img {
+            width: 100%;
+        }
+
+        #cards{
+            width: 90%;
+            border: 1px solid red;
+            margin: auto;
+            box-sizing: border-box;
+            padding: 0px 170px;
+        }
+        #card{
+            width: 25%;
+            border: 1px solid red;
+            display: inline-block;
+            padding: 10px;
+            
+        }
+        #card > img{
             width: 100%;
         }
     </style>
 </head>
+
 <body>
     <!-- header start -->
-<header>
-<h1>COMPANY <br>
-    <span>
+    <header>
+        <h1>COMPANY <br>
+            <span>
 
-        NAME HERE
-    </span>
-    </h1>
-<ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">Product</a></li>
-    <li><a href="">Service</a></li>
-</ul>
-</header>
-<!-- header End -->
+                NAME HERE
+            </span>
+        </h1>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Service</a></li>
+        </ul>
+    </header>
+    <!-- header End -->
 
 
 
-<div id="slider">
-    <img src="img/slider.jpg" alt="">
-</div>
+    <div id="slider">
+        <img src="img/slider.jpg" alt="">
+    </div>
 
+
+
+    <div id="cards">
+
+        <div id="card">
+            <img src="img/slider.jpg" alt="">
+            <h1>hello word</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum aut corrupti libero odio, consectetur,
+                laudantium sequi incidunt ut tenetur asperiores debitis, ratione quisquam possimus minima fugit soluta
+                ipsam! Quis, debitis?</p>
+        </div>
+
+        <div id="card">
+            <img src="img/slider.jpg" alt="">
+            <h1>hello word</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum aut corrupti libero odio, consectetur,
+                laudantium sequi incidunt ut tenetur asperiores debitis, ratione quisquam possimus minima fugit soluta
+                ipsam! Quis, debitis?</p>
+        </div>        <div id="card">
+            <img src="img/slider.jpg" alt="">
+            <h1>hello word</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum aut corrupti libero odio, consectetur,
+                laudantium sequi incidunt ut tenetur asperiores debitis, ratione quisquam possimus minima fugit soluta
+                ipsam! Quis, debitis?</p>
+        </div>
+    </div>
 </body>
+
 </html>
